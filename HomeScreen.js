@@ -11,7 +11,8 @@ import {
 
 import AppHeader from './components/AppHeader';
 import Inputs from './inputs.js';
-
+import db from './config';
+import firebase from 'firebase';
 export default class HomeScreen extends React.Component {
   constructor() {
     super();
