@@ -1,1 +1,1 @@
-# prototype6.0
+# prototype-srik
