@@ -2,7 +2,8 @@ import * as React from 'react';
 import { Text, View, Button,TouchableOpacity,StyleSheet} from 'react-native';
 import { NavigationEvents } from 'react-navigation';
 import AppHeader from './components/AppHeader';
-
+import db from './config';
+import firebase from 'firebase';
 export default class AdviceScreen extends React.Component {
  state = {
     a: 'value'
